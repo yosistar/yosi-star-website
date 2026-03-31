@@ -1,0 +1,9 @@
+function scrollToVideos() {
+  document.getElementById("videos").scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
+function goSupport() {
+  window.location.href = "https://your-link.com";
+}
